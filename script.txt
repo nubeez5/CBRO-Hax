@@ -1142,7 +1142,7 @@ while SCRIPT_ENABLED do
 				end
 			end)
 		else
-			marker.ChangeColor(Color3.new(1, 1, 1))
+			marker.ChangeColor(Color3.new(0, 1, 0))
 		end
 		
 		local pos = workspace.CurrentCamera:WorldToScreenPoint(closestTarget.Position)
